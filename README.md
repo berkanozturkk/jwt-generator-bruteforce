@@ -1,5 +1,5 @@
 # jwt-generator-bruteforce
-JW Token generator and decoder.
+JW Token generator and brute force.
 
 The program uses the jwt library
 
