@@ -1,4 +1,4 @@
-# jwt-generator-decoder
+# jwt-generator-bruteforce
 JW Token generator and decoder.
 
 The program uses the jwt library
