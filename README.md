@@ -16,7 +16,7 @@ This repository contains tools for generating JSON Web Tokens (JWT) and performi
   - `jwt`
 
 #### Prerequisites
-- ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) installed
+- ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) 
 
 #### Getting Started
 1. **Clone the repository:**
@@ -38,12 +38,3 @@ This repository contains tools for generating JSON Web Tokens (JWT) and performi
   python jwt_bruteforce.py
   ```
 
-#### Contributing
-Contributions are welcome! Please fork the repository and create a pull request with detailed information about your changes.
-
-#### License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to customize this README to better suit your project's needs.
