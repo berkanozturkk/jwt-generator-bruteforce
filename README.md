@@ -1,10 +1,49 @@
-# JWT-Generator-Bruteforce
-JW Token generator and brute force.
+### JWT Generator and Brute Force Tool
 
-### The program uses the *jwt* library
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-tokenvalidator.py takes the credential informations of user and creates jw token with these credentials, with the secret key specified by the user, with the algorithm type determined by the user.
+#### Overview
+This repository contains tools for generating JSON Web Tokens (JWT) and performing brute force attacks on JWTs. It includes functionalities to create JWTs with specified credentials and to validate and brute force JWTs using a predefined keylist.
 
-The jwt_bruteforce.py file takes the jw token as input. It first checks if the token structure is valid or not. Then, it takes a user-specified keylist (must be in the same file as jwt_bruteforce.py) as input and tries to crack the jw token with brute force over the keys in this list.
+#### Features
+- 🔑 **JWT Generation:** Create JWTs with user credentials, a secret key, and a specified algorithm.
+- 🛠️ **Brute Force JWTs:** Validate JWT structure and attempt to crack tokens using a user-provided keylist.
+  
+#### Technologies
+- **Language:** 
+  - ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+- **Libraries:**
+  - `jwt`
 
-### Technologies Used : Python
+#### Prerequisites
+- ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) installed
+
+#### Getting Started
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/berkanozturkk/jwt-generator-bruteforce.git
+   ```
+2. **Install dependencies:**
+   ```bash
+   pip install pyjwt
+   ```
+
+#### Running the Application
+- **Generate JWT:**
+  ```bash
+  python tokenvalidator.py
+  ```
+- **Brute Force JWT:**
+  ```bash
+  python jwt_bruteforce.py
+  ```
+
+#### Contributing
+Contributions are welcome! Please fork the repository and create a pull request with detailed information about your changes.
+
+#### License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+Feel free to customize this README to better suit your project's needs.
